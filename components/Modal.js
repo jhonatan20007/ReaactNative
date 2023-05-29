@@ -3,7 +3,7 @@ import { View, Text, Modal, StyleSheet, TouchableOpacity } from "react-native";
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const MyModal = ({ isModal, onClose, data }) => {
-  const [eliminar, setEliminar] = useState(false);
+  const [eliminar, setEliminar] = useState(false); 
 
   if (!isModal) {
     return null;
